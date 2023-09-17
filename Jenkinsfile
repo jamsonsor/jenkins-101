@@ -32,6 +32,8 @@ pipeline {
                 echo 'Deliver....'
                 sh '''
                 echo "doing delivery stuff.."
+                echo "Testing out change in Blue Ocean."
+                echo "And we're done!"
                 '''
             }
         }
