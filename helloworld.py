@@ -29,7 +29,9 @@ def test_url (url):
 url = "www.google.com"
 test_url(url)
 
+def do_math(x,y):
+   return x + y
     
 print("Hello world")
 print("Let's begin the learning process!")
-print(2+2)
+print(do_math(2,3))
